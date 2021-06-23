@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>
+    Lil' Bits
+</title>
+<link rel="shortcut icon" href="lilbits.jpg" />
+<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <div class="banner">
+    </br>
+        <h1 class="title">Lil' Bits</h1>
+    </div>
+</header></br>
+<section>
+    <div id="navbar">
+          <a href="index.html" class="current">Home</a>
+          <a href="menu.html">Menu</a>
+          <!--  <a href="aboutus.html">Contact Us</a>  -->
+          <a href="aboutus.html">About Us / Contact us</a>    
+      </div>
+</section>
+
+<section>
+        <div class="bodyy" style="background-color: rgb(255, 255, 255);">
+        <center>
+        <p style="font-family:candara;font-size: 1.85em;">
+        Welcome to Lil' Bits!</br></br></p>
+        <p style="font-family: Candara; font-size: 1.2em;">
+            Lil' Bits is one of the best restaurants in Juja!<br><br>
+            Watch this video of food being prepared in our kitchens. :)
+        </p>
+        <br><br>
+        </center>
+        </div>
+</section>
+<br>
+
+    <center>
+        <div class="vidcontainer" style="">
+                <video width="640" height="480" autoplay muted loop id="vid">
+                        <source src="Biteable_2.mp4" type="video/mp4">
+                      </video>
+            <div style="">
+                <p style="font-size:1.38em ; font-family:Candara; color: rgb(17, 17, 17);">Come on down to <strong>Lil' Bits!</strong></p>
+                <p style="font-family:Candara; font-size:1.2em; color: rgb(5, 19, 19);">
+                    Your satisfaction is our priority
+                </p><br>
+            </div> 
+        </div>
+    </center>
+
+<center>
+<form action="">
+    <div class="newsletter">
+        <h2 style="color:rgb(48, 47, 47)">Subscribe to our newsletters!</h2>
+        <p style="font-family:Candara; font-size:1.2em; color: rgb(5, 19, 19); text-align: center;">Subscribe to our newsletter to receive updates
+             on special offers, deals, discounts on meals, upcoming events and more via email.</p>
+    </div>
+    <div class="newsletter" style="background-color:rgb(247, 208, 125)">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email Address" name="email" required><br>
+        <label><input type="checkbox" name="sub" checked="checked">Daily Newsletter</label>
+        <label><input type="checkbox" name="sub">Weekly Newsletter</label>
+    </div>
+    <div class="newsletter">
+        <input type="submit" value="Subscribe">
+    </div>
+</form></center>
+
+<footer>
+     &copy Lil' Bits 2021
+</footer>
+<script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+    </script>
+</body>
+</html>

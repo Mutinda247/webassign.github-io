@@ -1,0 +1,319 @@
+.banner{
+    height: 150px;
+    background-image: url(food-header.jpg);
+}
+.banner2{
+	height: 120px; 
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	background-image: url(menubanner.jpg);
+	background-size: cover;
+}
+.banner2 a{
+	text-align: left;
+	padding: 15px;
+	font-family: Candara;
+	font-size: 35px;
+	color: white;
+	text-decoration: none;
+}
+.banner2 a:hover{
+	color: rgb(255, 178, 106)
+}
+.banner3{
+    height: 150px;
+	background-image: url(banner-29.jpg);
+	background-size: cover;
+}
+h1{
+    text-align: left;
+	font-family: Candara;
+	font-size: 60px;
+}
+h2{
+	font-family: Candara;
+	font-size: 40px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+h3{
+	font-family: Candara;
+	font-size: 20px;
+	color: rgb(61, 58, 58);
+}
+h4{
+	font-family: Candara;
+	font-size: 20px;
+	color: rgb(61, 58, 58);
+}
+.title{
+    color:rgb(255, 255, 255);
+	padding: 15px;
+	margin-top: 1px;
+}
+.title2{
+    color:rgb(0, 0, 0);
+	padding: 15px;
+	margin-top: 1px;
+}
+/*---MENU---*/
+.foodmenu{
+	margin-top: 140px;
+}
+.foodlist{
+	background: rgb(0,0,0);
+	background: rgba(0, 0, 0, 0.5);
+	font-family: Candara;
+	font-size: 25px;
+	color: #f1f1f1;
+	width: 100%;
+	float: left;
+}
+.foodlist .pricebutton{
+	background-color: rgb(112, 112, 112);
+	border: none;
+	color: white;
+	font-family: Candara;
+	font-size: 18px;
+	padding: 8px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px 15px;
+	margin-top: 0;
+	cursor: pointer;
+	float: right;
+	transition-duration: 0.3s;
+}
+.pricebutton:hover{
+	background-color: rgb(146, 146, 146);
+}
+#priceoverlay{
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.75);
+	z-index: 10;
+	cursor: pointer;
+}
+#prices{
+	margin-top: 100px;
+	position: absolute;
+	top: 10%;
+	left: 6%;
+	font-size: 17px;
+	color: white;
+	/* transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%); */
+}
+.breakfirst{
+	height: 300px; width: 100%;
+	background-image: url(breakfast3.jpg); 
+	background-position: center;
+	background-size: cover;
+	transition: 0.5s;
+}
+/*hover effect
+.breakfirst1 {
+	transition: .5s;
+	opacity: 0;
+	position: absolute;
+	text-align: left;
+	z-index: 3;
+}
+.breakfirst:hover{
+	opacity: 0.8;
+}
+.breakfirst:hover .breakfirst1{
+	opacity: 1;
+}
+------------*/
+.munch{
+	background-image: url(lunch1_3.jpg);
+	 height: 300px; width: 100%;
+	 background-position: center;
+	 background-size: cover;
+}
+.supper{
+	background-image: url(knifespoon.jpg); 
+	height: 300px; width: 100%;
+	background-position: center;
+}
+.desert{
+	background-image: url(dessert2.jpg);
+	height: 300px; width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.bevs{
+	background-image: url(latte2.jpg);
+	height: 300px; width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.drinks{
+	background-image: url(hh4.jpg);
+	height: 300px; width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+body{
+    background-image: url();
+}
+hr{
+    width: 55%;
+}
+/*---NAVIGATION BAR---*/
+#navbar{
+	background-color: rgb(255, 178, 106);
+	width:100%;
+	z-index:8;
+	overflow: hidden;
+	transition: 0.3s;
+	transition: top 0.3s;
+}
+#navbar a{
+	float:left;
+	text-align: center;
+	width: 30%;
+	padding: 16px 18px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Candara;
+	color: white;
+}
+#navbar a:hover{
+	background: rgb(255, 215, 178);
+	color:  rgb(37, 32, 28);
+	transition: 0.3s;
+}
+#navbar a.current{
+	background: rgb(255, 151, 81);
+	color: rgb(3, 3, 3);
+}
+/*NEWS LLETTER*/
+form{
+
+}
+.newsletter{
+	padding: 20px;
+	background-color: rgb(255, 168, 70);
+}
+input[type=text], input[type=submit]{
+	width: 50%;
+	padding: 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(218, 212, 212);
+	box-sizing: border-box;	
+}
+input[placeholder]{
+	font-family: Candara;
+	font-size: 17px;
+}
+input[type=checkbox]{
+	margin-top: 15px;
+}
+input[type=submit]{
+	background-color: rgb(32, 32, 32);
+	color: rgb(224, 223, 223);
+	border: none;
+	font-family: Candara;
+	font-size: 20px;
+	width: 30%;
+	transition: 0.3s;
+}
+input[type=submit]:hover{
+	background-color: rgb(68, 68, 68);
+	color: rgb(255, 255, 255);
+	transition: 0.3s;
+}
+.newsletter label{
+	font-family: Candara;
+}
+/*------------------*/
+.vidcontainer{
+	
+	
+}
+#vid{
+	opacity: 0.9;
+	background-size: cover;
+	right: 0;
+	bottom: 0;
+}
+/*MEET THE TEAM! */
+.teamcolumn{
+	float: left;
+	width: 15%;
+	margin-bottom: 16px;
+	padding: 0px 100px;
+	overflow: auto;
+}
+.team{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container{
+	padding: 0 16px;
+}
+.container::after, .teamrow::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+.role{
+	color: gray;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+}
+/*---CONTACT US---*/
+#review{
+	font-family: Consolas;
+	height: 170px;
+}
+input[type=text], select, textarea {
+	width: 30%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+.contacts{
+	border-radius: 5px;
+	padding: 10px;
+}
+#region{
+	font-family: Candara;
+	font-size: 17px;
+	width: 32%;
+	margin-top: 0px;
+}
+#contactfname{
+	width: 16%;
+}
+#contactlname{
+	width: 16%;
+}
+#contactemail{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 32%;
+}
+/*------------------*/
+footer{
+	text-align: center;
+	font-size: 15px;
+	color: rgb(88, 86, 86);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
